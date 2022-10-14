@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Quicksand:wght@400;500;700&display=swap");
+
+* {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: var(--primary-colour);
+}
+
+b {
+  font-weight: 600;
+}
+
+p {
+  font-size: 25px;
+}
+
+body {
+  --primary-colour: #fff;
+  --secondary-colour: #0e0e0e;
+  --tertiary-colour: #2c2c2c;
+  --accent-colour: #c83f40;
+  --text-colour: #000;
+
+  background-color: var(--primary-colour);
+}
