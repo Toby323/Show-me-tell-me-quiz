@@ -1,76 +1,85 @@
 .Icon-Button {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 #Titlebar {
-	user-select: none;
-	-webkit-user-select: none;
-	position: absolute;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	height: 70px;
-	background-color: var(--secondary-colour);
+  user-select: none;
+  -webkit-user-select: none;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  background-color: var(--secondary-colour);
 }
 
 #Question-Container {
-	user-select: none;
-	-webkit-user-select: none;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	text-align: center;
-	transform: translate(-50%, -50%);
+  user-select: none;
+  -webkit-user-select: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
 }
 
 #Control-Bar {
-	position: absolute;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	width: 170px;
-	height: 55px;
-	border-radius: 15px;
-	bottom: 20px;
-	left: 50%;
-	transform: translateX(-50%);
-	background-color: var(--tertiary-colour);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 170px;
+  height: 55px;
+  border-radius: 15px;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--tertiary-colour);
 }
 
 #Reveal-Answer-Button {
-	cursor: pointer;
-	user-select: none;
-	-webkit-user-select: none;
-	position: absolute;
-	display: flex;
-	color: white;
-	align-items: center;
-	justify-content: center;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-	top: -25px;
-	height: 25px;
-	width: 70%;
-	background-color: rgb(100, 255, 100);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  position: absolute;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  top: -25px;
+  height: 25px;
+  width: 70%;
+  background-color: rgb(100, 255, 100);
+  transition: 100ms ease;
+}
+
+#Reveal-Answer-Button:hover {
+  box-shadow: 0px -1px 15px rgba(100, 255, 100, 0.342);
+}
+
+#Reveal-Answer-Button:active {
+  box-shadow: none;
 }
 
 #Show-Random-Question-Button {
-	position: relative;
-	text-align: center;
-	margin-top: 5px;
-	color: white;
-	border-radius: 50%;
-	font-size: 35px;
-	width: 100%;
+  position: relative;
+  text-align: center;
+  margin-top: 5px;
+  color: white;
+  border-radius: 50%;
+  font-size: 35px;
+  width: 100%;
 }
 
 #Step-Forward-Button {
-	text-align: center;
-	margin-right: 15px;
+  text-align: center;
+  margin-right: 15px;
 }
 
 #Step-Backward-Button {
-	text-align: center;
-	margin-left: 15px;
+  text-align: center;
+  margin-left: 15px;
 }
